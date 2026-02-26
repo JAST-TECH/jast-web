@@ -1,0 +1,49 @@
+{
+  "Navigation": {
+    "philosophy": "Philosophy",
+    "activities": "Activities",
+    "members": "Members",
+    "recruit": "Recruit",
+    "contact": "Contact"
+  },
+  "Philosophy": {
+    "title": "Philosophy",
+    "subtitle": "PHILOSOPHY",
+    "catchphrase1": "\"Developing ",
+    "catchphrase2": "Talent",
+    "catchphrase3": " for the National Interest\"",
+    "backgroundTitle": "Background",
+    "backgroundText": "On the University of Tokyo campus, where specific ideologies tend to monopolize visible spaces, political diversity has become a mere shell.\n\nTherefore, we aim to correct this \"slope without choices,\" where students unconsciously lean towards a single ideological direction.",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to cultivate individuals who will lead Japan with intelligence and responsibility.\n\nAn environment where diverse ideas intersect is the true driving force of Japan's future, and it is precisely this environment that we intend to build.",
+    "valueTitle": "Value",
+    "value1": "Maintain a broad perspective without leaning toward specific ideologies.",
+    "value2": "Welcome the intersection of diverse thoughts and build constructive dialogue.",
+    "value3": "Implement intelligence into society to become a driving force for the national interest."
+  },
+  "Activities": {
+    "title": "Activities & History",
+    "subtitle": "ACTIVITIES",
+    "intro": "At JAST, we deploy a wide range of projects, balancing the steady \"accumulation of knowledge\" with \"practical implementation and advocacy\" for society.",
+    "pillar1Title": "01. Study & Verification",
+    "item1_1Title": "Weekly Study Sessions & Blogs",
+    "item1_1Desc": "We hold weekly deep-dive discussions on specific themes and publish our findings to society through our official blog.",
+    "item1_2Title": "Special Guest Lectures",
+    "item1_2Desc": "Once a month, we host closed lectures inviting frontline practitioners, including Diet members, journalists, JSDF personnel, and public security officials.",
+    "item1_3Title": "Fact-Checking University Lectures",
+    "item1_3Desc": "We verify ideological biases in university courses, such as gender studies, and conduct objective fact-checking to ensure academic integrity.",
+    "pillar2Title": "02. Practice & Advocacy",
+    "item2_1Title": "Large-Scale Events & Festivals",
+    "item2_1Desc": "We host special lectures with prominent figures and run booths at the May and Komaba Festivals, alongside independent entertainment and awareness events.",
+    "item2_2Title": "Media Appearances & Broadcasting",
+    "item2_2Desc": "Through various media appearances and our own video content, we deliver our philosophy and verified insights directly to society.",
+    "item2_3Title": "Internships & International Conferences",
+    "item2_3Desc": "We dispatch members to Diet internships and annual international conferences to cultivate a global perspective and practical political sense.",
+    "pillar3Title": "03. Community Building",
+    "item3_1Title": "Training Camps & Historic Tours",
+    "item3_1Desc": "We organize camps to study Japan's historical and cultural roots, such as visiting Ise Grand Shrine and ancient tumuli, followed by intense evening discussions.",
+    "item3_2Title": "General Assembly & Networking",
+    "item3_2Desc": "We hold party-style general assemblies involving members and stakeholders to strengthen our organizational unity and build a new intellectual network.",
+    "historyTitle": "Our History"
+  }
+}
