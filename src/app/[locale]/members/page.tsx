@@ -1,5 +1,6 @@
 // src/app/members/page.tsx
 import FadeIn from "@/components/FadeIn";
+import Image from "next/image";
 
 export default function MembersPage() {
   return (
@@ -24,17 +25,14 @@ export default function MembersPage() {
             <div className="flex flex-col md:flex-row">
               
               {/* 写真エリア（正方形比率を維持） */}
-              <div className="md:w-2/5 relative bg-gray-100 aspect-square md:aspect-auto">
-                {/* ※ここに実際の写真を配置します。
-                  Next.jsの <Image /> コンポーネントを使用するか、imgタグで src="/images/ceo.jpg" のように指定します。
-                  現在は写真の代わりとなるプレースホルダーです。
-                */}
-                <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                  <svg className="w-20 h-20 opacity-20" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                  </svg>
-                  <span className="absolute bottom-4 text-sm font-bold tracking-widest text-gray-400">PHOTO</span>
-                </div>
+              <div className="md:w-2/5 relative bg-gray-100 aspect-square md:aspect-auto min-h-[300px]">
+                <Image
+                  src="/images/members/thai.png" // ← 保存した画像のファイル名に合わせて変更してください
+                  alt="代表理事 山田 泰"
+                  fill // 親要素のサイズに合わせて自動で広がる魔法の設定
+                  className="object-cover object-center" // 画像の縦横比を崩さず、綺麗に枠を埋める
+                  priority // ページ上部の重要な画像なので、優先的に読み込む設定
+                />
               </div>
 
               {/* プロフィール＆メッセージエリア */}
