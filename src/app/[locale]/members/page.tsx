@@ -39,9 +39,27 @@ export default function MembersPage() {
               <div className="md:w-3/5 p-8 md:p-12 flex flex-col justify-center">
                 <div className="mb-8">
                   <p className="text-brand-red font-bold text-sm tracking-widest mb-2">代表理事 / Representative Director</p>
-                  <h2 className="text-3xl font-serif font-bold tracking-widest">
-                    山田 泰（やまだ たい）
-                  </h2>
+                  <h2 className="text-3xl font-serif font-bold tracking-widest leading-snug">
+                  {/* スマホではブロック（改行）、PC(md以上)ではインライン（横並び） */}
+                  <span className="block md:inline">
+                    {/* rubyタグで漢字とふりがなをセットにします */}
+                    <ruby>
+                      山田
+                      <rt className="text-[10px] text-gray-500 font-sans tracking-normal opacity-80">やまだ</rt>
+                    </ruby>
+                    <span className="mx-1"></span> {/* 苗字と名前の間のスペース */}
+                    <ruby>
+                      泰
+                      <rt className="text-[10px] text-gray-500 font-sans tracking-normal opacity-80">たい</rt>
+                    </ruby>
+                  </span>
+                  
+                  {/* スラッシュはスマホでは非表示(hidden)、PCでのみ表示 */}
+                  <span className="hidden md:inline mx-3 text-gray-400 font-light">/</span>
+                  
+                  {/* 英語表記もスマホでは改行。少し上余白(mt-1)をつけてバランス調整 */}
+                  <span className="block md:inline mt-1 md:mt-0">Thai Yamada</span>
+                </h2>
                 </div>
 
                 {/* メッセージ */}
