@@ -3,9 +3,9 @@
 
 /* ここに右合の衆のカスタムテーマ（色・フォント）を設定します */
 @theme {
-  --color-brand-white: #FFFFFF;
-  --color-brand-black: #222222;
-  --color-brand-red: #C01920;
+  --color-brand-white: #FAFAFA;
+  --color-brand-black: #252525;
+  --color-brand-red: #b22222;
 
   --font-serif: var(--font-noto-serif), serif;
   --font-sans: var(--font-noto-sans), sans-serif;
